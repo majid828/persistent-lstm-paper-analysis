@@ -741,7 +741,7 @@ def save_scatter_plot(df_metrics: pd.DataFrame, seq_len: int):
 def save_cdf_nse_plot(df_metrics: pd.DataFrame):
     nse_cols = {
         "Persistent LSTM": "persistent_nse",
-        "CUDA LSTM 365": "cuda_365_nse",
+        "FSSTS LSTM (Seq-365)": "cuda_365_nse",
     }
 
     fig, ax = plt.subplots(figsize=(11, 8))
