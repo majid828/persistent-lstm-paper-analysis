@@ -787,7 +787,7 @@ def save_cdf_nse_plot(df_metrics: pd.DataFrame):
 
     ax.set_xlabel("NSE", fontweight="bold")
     ax.set_ylabel("CDF", fontweight="bold")
-    ax.set_title("NSE CDF — Persistent LSTM vs CUDA LSTM 365", fontweight="bold")
+    ax.set_title("NSE CDF — Test Basins", fontweight="bold")
     ax.grid(True, alpha=0.30)
 
     bold_ticks(ax)
